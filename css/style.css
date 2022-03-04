@@ -7,6 +7,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+:root {
+  --cor-preto: black;
+  --cor-branco: white;
+}
+
 ul {
   list-style: none;
 }
