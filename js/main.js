@@ -3,7 +3,8 @@ const luasContador = document.getElementById("luas");
 const planetasContador = document.getElementById("planetas");
 const navesContador = document.getElementById("naves");
 
-preencherContadores()
+preencherContadores();
+preencherTabela();
 
 function preencherContadores(){
    Promise.all([
@@ -18,6 +19,10 @@ function preencherContadores(){
     planetasContador.innerHTML = results[2].data.count;
     navesContador.innerHTML = results[3].data.count;
   });
+}
+
+async function preencherTabela(){
+  const response = await swapiGet('films/');
 }
 
 function swapiGet(param){
