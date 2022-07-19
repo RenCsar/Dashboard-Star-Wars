@@ -117,3 +117,34 @@ aside .settings svg {
 .card-large .card-container .card-content:first-child {
   border-right: 1px solid #111;
 }
+
+.table {
+  width: 642px;
+  margin: 40px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, .25);
+  border-radius: 16px;
+  text-align: left;
+}
+
+.table h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.table table {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.table table th {
+  border-bottom: 1px solid #5e5e5e;
+  padding: 10px 0;
+}
+
+.table table td {
+  border-bottom: 1px solid #e9e9e9;
+  padding: 10px 0;
+}
