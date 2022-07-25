@@ -15,8 +15,7 @@
 
 <h1 align="center">  
   <p align="center">
-  <img width="350" height="450" src="./Assents/Dashboard-Star-Wars.png"><br><br>
-  <img width="350" height="450" src="./Assents/Calc.gif"><br><br>
+  <img width="800" height="500" src="./assets/Dashboard-Star-Wars.png"><br><br>
 </p>
 
 </h1>
